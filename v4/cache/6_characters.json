@@ -1,0 +1,35 @@
+{
+  "nodes": ["Stallabella", "Swiftabella", "Stallabella's parents", "Mr. Whizzlebop", "Stallabella's friends"],
+  "edges": [
+    {
+      "source": "Stallabella",
+      "target": "Swiftabella",
+      "relationship": "transforms_into"
+    },
+    {
+      "source": "Stallabella",
+      "target": "Stallabella's parents",
+      "relationship": "child_of"
+    },
+    {
+      "source": "Swiftabella",
+      "target": "Stallabella's parents",
+      "relationship": "child_of"
+    },
+    {
+      "source": "Stallabella",
+      "target": "Mr. Whizzlebop",
+      "relationship": "misses_show_of"
+    },
+    {
+      "source": "Stallabella",
+      "target": "Stallabella's friends",
+      "relationship": "friends_with"
+    },
+    {
+      "source": "Swiftabella",
+      "target": "Stallabella's friends",
+      "relationship": "friends_with"
+    }
+  ]
+}
