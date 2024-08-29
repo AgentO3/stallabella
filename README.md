@@ -1,4 +1,6 @@
-# Stallabella: A Children's Story Generator
+# Stallabella: Story Generator
+
+![](final/images/image_0.png)
 
 ## How It Works
 
