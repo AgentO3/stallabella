@@ -2,6 +2,10 @@
 
 ![](final/images/image_0.png)
 
+## Buy the Book
+
+- [Amazon](https://www.amazon.com)
+
 ## How It Works
 
 This project utilizes a bash script to automate the process of generating the story and its accompanying images. The script performs the following steps:
@@ -17,9 +21,7 @@ This project utilizes a bash script to automate the process of generating the st
 To run the script, ensure you have the following:
 
 - A Unix-like environment (Linux, macOS, or WSL on Windows)
-- `curl` for downloading images
-- `jq` for processing JSON files
-- `cllm` for generating text and images https://github.com/o3-cloud/cllm
+- `docker` for running the story.sh script
 - OpenAI API Access
  
 ## Usage
@@ -32,7 +34,7 @@ To run the script, ensure you have the following:
 
 2. Run the script:
    ```bash
-   bash story.sh
+   bash generate.sh
    ```
 
 You can generate multiple version of the story by changing the version number in the `story.sh` script and story prompt and then run the script again.
